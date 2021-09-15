@@ -4,7 +4,6 @@ const userName = document.getElementById("name");
 const branch = document.getElementById("branch");
 const phonNo = document.getElementById("contact_number");
 const email = document.getElementById("email");
-//const numberCode=document.getElementById("number_code");
 const form1 = document.getElementById("form1");
 
 form1.addEventListener("mouseout", (e) => {
@@ -14,20 +13,6 @@ form1.addEventListener("mouseout", (e) => {
   checkEmail();
   checkNumber();
 });
-
-// function validateStudent() {
-//   if (
-//     checkName() &&
-//     checkYear() &&
-//     checkUsn() &&
-//     checkNumber() &&
-//     checkEmail() === true
-//   ) {
-//     return true;
-//   } else {
-//     return false;
-//   }
-// }
 
 function checkName() {
   const userNameValue = userName.value.trim();
